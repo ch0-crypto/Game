@@ -117,3 +117,20 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section .right {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+  section .highscore {
+  }
+
+  button.btn {
+    margin-top: 2.4rem;
+    padding: 1rem;
+  }
+}
